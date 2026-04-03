@@ -1,0 +1,8 @@
+# docker-compose override for LOCAL dev only.
+# This keeps the original docker-compose.yml working unchanged while
+# the production nginx.conf uses ${BACKEND_URL} via envsubst.
+services:
+  frontend:
+    environment:
+      # Points nginx proxy to the local backend container
+      BACKEND_URL: "http://backend:3001"
