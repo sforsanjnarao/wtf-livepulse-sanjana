@@ -93,3 +93,12 @@ All benchmarks measured using `EXPLAIN ANALYZE` against the seeded dataset (~5,0
 - **Revenue drop detection** uses a fixed 7-day lookback; if last week had zero payments (e.g. gym was new), the anomaly won't fire
 - **Unit tests** mock the database; true performance guarantees require integration tests against a seeded DB
 - **Docker build** requires `npm ci` inside the container — first build takes ~60s on a cold pull
+
+
+
+
+
+
+
+- **live link**
+http://wtf-livepulse-alb-2062491661.ap-south-1.elb.amazonaws.com
