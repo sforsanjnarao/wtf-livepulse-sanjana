@@ -1,0 +1,1 @@
+{"version":3,"file":"simulatorService.d.ts","sourceRoot":"","sources":["../../../src/services/simulatorService.ts"],"names":[],"mappings":"AAkBA,wBAAgB,kBAAkB,IAAI;IAAE,OAAO,EAAE,OAAO,CAAC;IAAC,KAAK,EAAE,MAAM,CAAA;CAAE,CAExE;AAyHD,wBAAgB,cAAc,CAAC,KAAK,EAAE,CAAC,GAAG,CAAC,GAAG,EAAE,GAAG,IAAI,CAOtD;AAED,wBAAgB,aAAa,IAAI,IAAI,CAOpC;AAED,wBAAsB,cAAc,IAAI,OAAO,CAAC,IAAI,CAAC,CAKpD"}
